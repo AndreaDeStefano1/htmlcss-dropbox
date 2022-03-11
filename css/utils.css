@@ -2,6 +2,7 @@
 
 .bg-blue{
   background-color: blue;
+  border: 2px solid red;
 }
 .bg-red{
   background-color: red;
@@ -44,8 +45,7 @@
 /* /DEBUG */
 
 
-ul li{
-  list-style: none;
+nav ul li{
   display: inline-block;
   vertical-align: middle;
   padding: 10px 15px;
@@ -59,6 +59,7 @@ ul li img{
 
 .container{
   width: 70%;
+  margin: auto;
 }
 .container-l{
   width: 80%;
@@ -68,11 +69,9 @@ ul li img{
 
 .float-sx{
   float: left;
-  display: inline-block;
 }
 .float-dx{
-  float: right;
-  display: inline-block;
+  float: right;  
 }
 
 
@@ -83,4 +82,38 @@ ul li img{
 a.btn{
   color: white;
   text-decoration: none;
+  text-align: center;
+}
+
+
+/* SPAZIATURE */
+
+.space-xxs{
+  margin-top: 10px;
+}
+.space-xs{
+  margin-top: 25px
+}
+.space-s{
+  margin-top: 50px;
+}
+.space-m{
+  margin-top: 150px;
+}
+.space-l{
+  margin-top: 300px;
+}
+.sapce-w-xs{
+  display: inline;
+  margin-left: 10px;
+}
+
+.padding-10-dx{
+  padding-right: 10px;
+}
+.padding-10-lx{
+  padding-left: 10px;
+}
+.padding-10{
+  padding: 0px 5px 0 5px;
 }
