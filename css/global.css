@@ -8,42 +8,13 @@ html{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-blue{
-  background-color: blue;
-}
-.bg-red{
-  background-color: red;
+a{
+  text-decoration: none;
+  color: black;
 }
 
-.debug{   
-  background-color: rgba(255, 0, 0, .4);
-  border: 1px solid black; 
-}  
-
-.h100{      
-  min-height: 100px; 
-}  
-
-.h300{   
-  min-height: 300px; 
-} 
-
-.h500{   
-  min-height: 500px; 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
 }
-
-.width150{  
-  width: 150px; 
-}  
-
-.w40{   
-  width: 40%; 
-}  
-
-.w50{   
-  width: 50%; 
-}  
-
-.w60{  
-   width: 60%; 
-  }
