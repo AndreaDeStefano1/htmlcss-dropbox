@@ -1,3 +1,14 @@
 /* nav li:hover{
   border-bottom: 3px solid black;
 } */
+
+
+
+/* FAQ  */
+details[open] .open{
+  display: inline;
+}
+
+details[open] .close{
+  display: none;
+}

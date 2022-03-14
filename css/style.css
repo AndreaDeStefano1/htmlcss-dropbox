@@ -64,7 +64,7 @@ input[type = radio] {
 .cardcontent{
   width:calc((100% - 100px) / 3);
   border: 1px solid rgb(220, 220, 222);
-
+  min-height: 1057px;
 }
 
 .col-center{
@@ -79,7 +79,7 @@ input[type = radio] {
 
 .plan-info{
   width: 80%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .plan-info span{
@@ -109,7 +109,7 @@ input[type = radio] {
 }
 
 .line{
-  width: 50px;
+  width: 100px;
   border: .5px solid grey;
 }
 
@@ -158,6 +158,139 @@ input[type = radio] {
 
 /* SPONSOR */
 
+.container-sponsor{
+  height: 30vw;
+}
 
+.cs-30{
+  width: 30%;
+  height: 100%;
+}
+.cs-40{
+  width: 40%;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 3vw;
+  position: relative;
+  overflow-y: auto;
+}
+
+.cs-40 img{
+  width: 10vw;
+}
+
+.sponsor-text p{
+  font-size: 25px;
+  line-height: 30px;
+}
+.sponsor-text span{
+  display: inline-block;
+  font-size: 30px;
+}
+
+#sponsor .cs-30 img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 7vw;
+  filter: invert(1);
+}
+
+ .square{
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+#designit{
+  background-color: rgb(162, 211, 155);
+}
+#asu{
+  background-color: rgb(97, 8, 43);
+}
+#uof{
+  background-color: rgb(0, 147, 206);
+}
+#topps{
+  background-color: rgb(255, 28, 28);
+}
+#wbr{
+  background-color: rgb(213, 0, 31);
+}
+#hearts-co{
+  background-color: rgb(180, 208, 231);
+}
+#lonely-planet{
+  background-color: rgb(13, 36, 129);
+}
+#clear-channel{
+  background-color: rgb(255, 216, 48);
+}
 
 /* /SPONSOR */
+
+/* FREE TRIAL */
+#cta{
+  background-color: rgb(180, 208, 231);
+}
+#cta h2{
+  padding: 130px 0;
+}
+
+.cta-button{
+  padding: 130px 0;
+}
+#cta span {
+  display: inline-block;
+  background-color: white;
+}
+
+/* /FREE TRIAL */
+
+/* FAQ */
+
+.questions{
+  padding: 30px 0;
+  border-top: 1px solid rgb(233, 233, 234);
+  border-bottom: 1px solid rgb(233, 233, 234);
+}
+
+
+.open{
+  display: none;
+}
+
+
+details summary{
+  list-style: none;
+  cursor: pointer;
+}
+
+
+/* /FAQ */
+
+/* FOOTER */
+footer{
+  background-color: black;
+  color: white;
+}
+footer h2{
+  margin-top: 100px;
+}
+footer ul{
+  margin-top: 20px;
+}
+footer ul li{
+  padding: 5px 0;
+}
+footer ul li a{
+  color: white;
+}
+.footer-col{
+  width: calc(100% / 5);
+}
+.language{
+  color: rgb(102, 102, 102);
+}
+/* /FOOTER */
