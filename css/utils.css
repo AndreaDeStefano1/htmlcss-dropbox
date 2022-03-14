@@ -16,7 +16,9 @@
 .h100{      
   min-height: 100px; 
 }  
-
+.h200{
+  height: 200px;
+}
 .h300{   
   min-height: 300px; 
 } 
@@ -28,6 +30,10 @@
 .width150{  
   width: 150px; 
 }  
+
+.w30{
+  width: 30%;
+}
 
 .w40{   
   width: 40%; 

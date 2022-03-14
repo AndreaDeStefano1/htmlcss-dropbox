@@ -23,7 +23,7 @@ header{
 }
 
 .jumbotron img{
-  width: 1000px; 
+  width: 1000px;
 }
 
 .jumbo-text{
@@ -61,7 +61,7 @@ input[type = radio] {
 .cardcontent{
   width:calc((100% - 100px) / 3);
   border: 1px solid rgb(220, 220, 222);
-  
+
 }
 
 .col-center{
@@ -82,7 +82,7 @@ input[type = radio] {
 .plan-info span{
   display: block;
   line-height: 25px;
-  
+
 }
 
 .plan-info ul li{
@@ -120,4 +120,10 @@ input[type = radio] {
 }
 
 
+
+/* OPERAZIONI CON DROPBOX BUSINESS */
+
+.operation-card{
+  width: calc(100% / 3);
+}
 
