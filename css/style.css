@@ -52,11 +52,14 @@ header{
 
 main h2{
   font-size: 2.5rem;
-
 }
 
 input[type = radio] {
   margin-right: 5px;
+}
+
+.card-container{
+
 }
 .cardcontent{
   width:calc((100% - 100px) / 3);
@@ -76,7 +79,7 @@ input[type = radio] {
 
 .plan-info{
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 .plan-info span{
@@ -93,6 +96,7 @@ input[type = radio] {
 .fa-ul{
   margin: 0 22px;
 }
+
 .plan-info .btn {
   display: block;
   width: 100%;
@@ -119,11 +123,41 @@ input[type = radio] {
   -webkit-text-stroke: 1px rgb(0, 94, 255);
 }
 
+.card-big h3{
+  text-align: center;
+  padding: 10px 0;
+}
 
+/* ENTRA IN CONTATTO CON UN PARTNER DROPBOX */
+
+.image img{
+  width: 100%;
+}
+#partner .text{
+  padding: 50px 0 0 50px;
+}
+#partner .text span{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* /ENTRA IN CONTATTO CON UN PARTNER DROPBOX */
 
 /* OPERAZIONI CON DROPBOX BUSINESS */
 
 .operation-card{
-  width: calc(100% / 3);
+  width:calc((100% - 100px) / 3);
+  margin-top: 50px;
+}
+.operation-card img{
+  width: 100%;
 }
 
+/* /OPERAZIONI CON DROPBOX BUSINESS */
+
+/* SPONSOR */
+
+
+
+/* /SPONSOR */
