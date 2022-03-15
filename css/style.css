@@ -1,13 +1,36 @@
+/* NAVBAR */
+
 header{
   height: 100px;
   width: 100%;
-  line-height: 80px;
+  line-height: 100px;
   position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
   background-color: white;
 }
+
+
+nav ul li{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 15px;
+}
+
+nav ul li .border{  
+  border-bottom: 3px solid transparent;  
+}
+
+ul li img{
+  vertical-align: middle;
+}
+
+
+header li{
+ cursor: pointer;
+}
+
 
 /* JUMBOTRON */
 
@@ -58,9 +81,8 @@ input[type = radio] {
   margin-right: 5px;
 }
 
-.card-container{
+/* PIANI DROPBOX */
 
-}
 .cardcontent{
   width:calc((100% - 100px) / 3);
   border: 1px solid rgb(220, 220, 222);
@@ -123,9 +145,27 @@ input[type = radio] {
   -webkit-text-stroke: 1px rgb(0, 94, 255);
 }
 
+.card-big{
+  border: 1px solid rgb(220, 220, 222);
+}
+
 .card-big h3{
   text-align: center;
   padding: 10px 0;
+  border-bottom: 1px solid rgb(220, 220, 222);
+}
+
+.card-big span{
+  display: inline-block;
+  font-weight: bold;
+}
+
+.card-big p{
+  padding-bottom: 30px;
+}
+
+.card-big .btn{
+  padding: 10px 90px;
 }
 
 /* ENTRA IN CONTATTO CON UN PARTNER DROPBOX */
@@ -140,8 +180,17 @@ input[type = radio] {
   display: inline-block;
   background-color: white;
   border: 1px solid black;
+  font-size: 20px;
 }
 
+#partner  h3{
+  font-size: 45px;
+  font-weight: 700;
+}
+#partner p{
+  line-height: 30px;
+  font-size: 25px;
+}
 /* /ENTRA IN CONTATTO CON UN PARTNER DROPBOX */
 
 /* OPERAZIONI CON DROPBOX BUSINESS */
@@ -153,6 +202,10 @@ input[type = radio] {
 .operation-card img{
   width: 100%;
 }
+#operation p{
+  font-size: 20px;
+  line-height: 25px;
+}
 
 /* /OPERAZIONI CON DROPBOX BUSINESS */
 
@@ -162,6 +215,11 @@ input[type = radio] {
   height: 30vw;
 }
 
+#sponsor a {
+  text-decoration: underline;
+  color: rgb(42, 123, 255);
+  font-weight: bold;
+}
 .cs-30{
   width: 30%;
   height: 100%;
@@ -256,6 +314,15 @@ input[type = radio] {
   border-bottom: 1px solid rgb(233, 233, 234);
 }
 
+.summary-text{
+  display: inline-block;
+  width: 95%;
+}
+
+.summary-icon{
+  display: inline-block;
+  padding-right: 5px;
+}
 
 .open{
   display: none;
@@ -265,6 +332,9 @@ input[type = radio] {
 details summary{
   list-style: none;
   cursor: pointer;
+}
+details p{
+  padding-top: 20px;
 }
 
 

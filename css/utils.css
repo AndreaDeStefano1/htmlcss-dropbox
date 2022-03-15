@@ -56,18 +56,6 @@
 /* /DEBUG */
 
 
-nav ul li{
-  display: inline-block;
-  vertical-align: middle;
-  padding: 10px 15px;
-}
-
-ul li img{
-  vertical-align: middle;
-}
-
-
-
 .container{
   width: 70%;
   margin: auto;
