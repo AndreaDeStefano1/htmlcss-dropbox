@@ -13,7 +13,6 @@ header{
 
 nav ul li{
   display: inline-block;
-  vertical-align: middle;
   padding: 0px 15px;
   position: relative;
 }
@@ -28,7 +27,7 @@ ul li ul.dropdown {
   position: absolute;
   z-index: 999;
   left: 0;
-  top: 99px;
+  top: 100px;
 }
 
 ul li ul.dropdown li {

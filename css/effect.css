@@ -9,7 +9,7 @@ span :hover{
 
 /* NAV */
 
-nav .menu > ul > li:hover {
+nav .menu > ul > li.underlined:hover {
   border-bottom: 3px solid black;
   line-height: 97px;
 }
