@@ -1,10 +1,10 @@
 /* GENERAL */
 
-.btn.blue:hover{
+.btn.blue-btn:hover{
   filter: brightness(1.4);
 }
-span :hover{
-  background-color: rgba(150,150,150, .5);
+#partner .btn.grey:hover, .cta-button .btn.grey:hover{
+  background-color: lightgray;
 }
 
 /* NAV */

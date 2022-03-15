@@ -94,7 +94,7 @@ input[type = radio] {
 .cardcontent{
   width:calc((100% - 100px) / 3);
   border: 1px solid rgb(220, 220, 222);
-  min-height: 1057px;
+  min-height: 1210px;
 }
 
 .col-center{
@@ -308,7 +308,7 @@ input[type = radio] {
 }
 
 .cta-button{
-  padding: 130px 0;
+  padding: 140px 0;
 }
 
 
