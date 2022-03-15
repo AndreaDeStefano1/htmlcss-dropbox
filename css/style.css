@@ -11,21 +11,30 @@ header{
   background-color: white;
 }
 
-
 nav ul li{
   display: inline-block;
   vertical-align: middle;
   padding: 0px 15px;
-}
-
-nav ul li .border{  
-  border-bottom: 3px solid transparent;  
+  position: relative;
 }
 
 ul li img{
   vertical-align: middle;
 }
+ul li ul.dropdown {
+  min-width: 100%; 
+  background: white;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: 99px;
+}
 
+ul li ul.dropdown li {
+  display: block;
+  width: 250px;
+}
 
 header li{
  cursor: pointer;
@@ -46,7 +55,7 @@ header li{
 }
 
 .jumbotron img{
-  width: 1000px;
+  width: 900px;
 }
 
 .jumbo-text{

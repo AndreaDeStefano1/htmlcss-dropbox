@@ -1,6 +1,21 @@
-nav li:hover {
+/* GENERAL */
+
+.btn:hover{
+  filter: brightness(1.4);
+}
+
+
+/* NAV */
+
+nav .menu > ul > li:hover {
   border-bottom: 3px solid black;
   line-height: 97px;
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+.dropdown li:hover{
+  background-color: lightgrey;
 }
 
 
@@ -13,3 +28,4 @@ details[open] .open{
 details[open] .close{
   display: none;
 }
+
