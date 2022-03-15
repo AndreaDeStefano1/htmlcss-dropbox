@@ -1,9 +1,11 @@
 /* GENERAL */
 
-.btn:hover{
+.btn.blue:hover{
   filter: brightness(1.4);
 }
-
+span :hover{
+  background-color: rgba(150,150,150, .5);
+}
 
 /* NAV */
 
@@ -28,4 +30,8 @@ details[open] .open{
 details[open] .close{
   display: none;
 }
+/* SPONSOR */
 
+.active{
+  border: 10px solid rgba(255, 255, 255, .5);
+}
