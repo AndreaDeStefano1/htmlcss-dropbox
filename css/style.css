@@ -184,7 +184,7 @@ input[type = radio] {
 #partner .text{
   padding: 50px 0 0 50px;
 }
-#partner .text span{
+#partner .text .btn{
   display: inline-block;
   background-color: white;
   border: 1px solid black;
@@ -194,6 +194,7 @@ input[type = radio] {
 #partner  h3{
   font-size: 45px;
   font-weight: 700;
+  
 }
 #partner p{
   line-height: 30px;
@@ -302,15 +303,14 @@ input[type = radio] {
 }
 #cta h2{
   padding: 130px 0;
+  color: rgb(94, 2, 37);
+  font-weight: 850;
 }
 
 .cta-button{
   padding: 130px 0;
 }
-#cta span {
-  display: inline-block;
-  background-color: white;
-}
+
 
 /* /FREE TRIAL */
 
